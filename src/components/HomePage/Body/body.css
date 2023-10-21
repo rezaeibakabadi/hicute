@@ -1,0 +1,266 @@
+.bodyContainer {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    /* grid-template-rows: 1fr 1fr 1fr 1fr; */
+    align-self: flex-start;
+    position: relative;
+    margin-top: 1.2rem;
+}
+
+.firstItem {
+    background-color: #b48f96;
+    margin-left: 0;
+    width: 80%;
+    height: 6.49rem;
+    position: relative;
+    margin-bottom: 3px;
+}
+
+.Beauty {
+    display: inline-grid;
+    width: 20rem;
+    height: 6.49rem;
+    grid-template-columns: 1fr 1fr;
+    position: absolute;
+    right: 0;
+    top: 0;
+    align-items: center;
+    border-radius: 4px;
+    background-image: linear-gradient(-23deg, #f2aeb9, #ffd3da);
+    box-shadow: 0px 0px 0px 2px #fae5e4;
+    cursor: pointer;
+}
+
+.imgBeauty {
+    display: inline;
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    bottom: 0;
+    left: 3rem;
+    width: 95px;
+    height: 80px;
+    opacity: 0.16;
+}
+
+.beautyText {
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    color: #ffeaed;
+    left: 20px;
+    font-size: 0.9rem;
+    letter-spacing: 0.25rem;
+}
+
+.beautyText2 {
+    text-align: center;
+    color: #9d3346;
+    font-size: 1.35rem;
+
+}
+
+
+.diamondRight {
+    width: 0;
+    height: 0;
+    border-top: 45px solid transparent;
+    border-right: 15px solid #fffefe;
+    border-bottom: 45px solid transparent;
+    position: absolute;
+    right: 0;
+    opacity: 0.28;
+}
+
+.diamondLeft {
+    width: 0;
+    height: 0;
+    border-top: 45px solid transparent;
+    border-left: 15px solid #fffefe;
+    border-bottom: 45px solid transparent;
+    position: absolute;
+    left: 0;
+    opacity: 0.28;
+}
+
+
+
+
+.secondItem {
+    background-color: #a599bf;
+    margin: 5px 0;
+    height: 6.49rem;
+    width: 80%;
+    align-self: flex-end;
+    position: relative;
+}
+
+.Media {
+    display: inline-grid;
+    width: 20rem;
+    height: 6.49rem;
+    grid-template-columns: 1fr 1fr;
+    position: absolute;
+    left: 0;
+    top: 0;
+    align-items: center;
+    border-radius: 4px;
+    background-image: linear-gradient(-23deg, #c8b2f3, #e4d3ff);
+    box-shadow: 0px 0px 0px 2px #eee5fe;
+    cursor: pointer;
+}
+
+.mediaText {
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    color: #ffeaed;
+    left: 20px;
+    font-size: 0.9rem;
+    letter-spacing: 0.25rem;
+}
+
+.mediaText2 {
+    text-align: center;
+    color: #6d51a8;
+    font-size: 1.35rem;
+    margin-right: 10px;
+}
+
+.imgMedia {
+    display: inline;
+    position: absolute;
+    z-index: 0;
+    top: 11px;
+    bottom: 0;
+    left: 3rem;
+    width: 95px;
+    height: 80px;
+    opacity: 0.16;
+}
+
+.thirdItem {
+    background-color: #ccb0a4;
+    margin: 5px 0;
+    height: 6.49rem;
+    width: 80%;
+    align-self: flex-start;
+    position: relative;
+}
+
+.Club {
+    display: inline-grid;
+    width: 20rem;
+    height: 6.49rem;
+    grid-template-columns: 1fr 1fr;
+    position: absolute;
+    right: 0;
+    top: 0;
+    align-items: center;
+    border-radius: 4px;
+    background-image: linear-gradient(-23deg, #e2c28f, #f9e7cb);
+    box-shadow: 0px 0px 0px 2px #fae5e4;
+    cursor: pointer;
+}
+
+.imgClub {
+    display: inline;
+    position: absolute;
+    z-index: 0;
+    top: 9px;
+    bottom: 0;
+    left: 3rem;
+    width: 80px;
+    height: 80px;
+    opacity: 0.16;
+}
+
+.clubText {
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    color: #ffeaed;
+    left: 20px;
+    font-size: 0.9rem;
+    letter-spacing: 0.25rem;
+}
+
+.clubText2 {
+    text-align: center;
+    color: #a05b38;
+    font-size: 1.25rem;
+    margin-right: 10px;
+
+}
+
+
+.fourthItem {
+    background-color: #8fb3b3;
+    margin: 5px 0;
+    height: 6.49rem;
+    width: 80%;
+    align-self: flex-end;
+    position: relative;
+}
+
+
+.Store {
+    display: inline-grid;
+    width: 20rem;
+    height: 6.49rem;
+    grid-template-columns: 1fr 1fr;
+    position: absolute;
+    left: 0;
+    top: 0;
+    align-items: center;
+    border-radius: 4px;
+    background-image: linear-gradient(-23deg, #82d1d2, #c0f3f4);
+    box-shadow: 0px 0px 0px 2px #eee5fe;
+    cursor: pointer;
+}
+
+.storeText {
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    color: #ffeaed;
+    left: 20px;
+    font-size: 0.9rem;
+    letter-spacing: 0.25rem;
+}
+
+.storeText2 {
+    text-align: center;
+    color: #349393;
+    font-size: 1.35rem;
+    margin-right: 10px;
+}
+
+.imgStore {
+    display: inline;
+    position: absolute;
+    z-index: 0;
+    top: 9px;
+    bottom: 0;
+    left: 3rem;
+    width: 95px;
+    height: 80px;
+    opacity: 0.16;
+}
+
+
+@media (max-width:40rem) {
+
+    .firstItem,
+    .secondItem,
+    .thirdItem,
+    .fourthItem {
+        width: 90%
+    }
+
+    ;
+
+
+
+}

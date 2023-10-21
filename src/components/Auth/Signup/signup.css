@@ -1,0 +1,103 @@
+.Container {
+    height: 90vh;
+    display: grid;
+    grid-template-rows: 0.25fr 1fr 1fr;
+    margin-top: 1vh;
+}
+
+.Header {
+    width: 90%;
+    height: 5vh;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+}
+
+.imgHeader {
+    width: 100%;
+    height: 3.5vh;
+    position: relative;
+    z-index: -1;
+}
+
+.textPhone {
+    width: 100%;
+    height: 2vh;
+    position: relative;
+    bottom: 4.2vh;
+    font-size: 0.75rem;
+    color: #fff;
+}
+
+.Phone {
+    width: 100%;
+    height: 15vh;
+    display: grid;
+    grid-template-rows: 1fr 0.5fr;
+    align-items: center;
+    text-align: right;
+    row-gap: 20px;
+}
+
+.formControl{
+    width: 100%;
+    display: block;
+    grid-template-rows: 0.5fr 1fr;
+    margin: auto;
+    font-size: 0.85rem;
+    color: #8e2627;
+    font-weight: bold;
+}
+.textInput{
+    height: 10px;
+    margin-right: 4.8vw;
+}
+
+.inputControl{
+    width: 98%;
+    height: 45px;
+    text-align: left;
+    color: #000;
+    border: 2px solid #aaaaaa;
+    background-color: #f2f2f2;
+    margin: auto;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+
+.btnStyle{
+    height: 50px;
+}
+
+.btnSend{
+    display: block;
+    margin: auto;
+    width: 70px;
+    height: 70px;
+    background-image: linear-gradient(#ec5c5c, #8e2627);
+    border-radius: 100%;
+    color: #ebdcdc;
+    border:5px solid #fff;
+    border-style: double;
+    font-family: "MyFont";
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.activeCode {
+    width: 100%;
+    height: 15vh;
+    display: grid;
+    grid-template-rows: 1fr 0.5fr;
+    align-items: center;
+    text-align: right;
+    row-gap: 20px;
+}
+
+.verificationInput{
+    display: block;
+    margin: auto;
+    color: #8e2627;
+    font-weight: bold;
+}

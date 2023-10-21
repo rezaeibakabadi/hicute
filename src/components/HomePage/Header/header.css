@@ -1,0 +1,54 @@
+.Header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 12px;
+    align-items: center;
+}
+
+.RightPart{
+    margin: auto;
+}
+
+.RightPart>img {
+    width: 135px;
+    height: 40px;
+    margin-left: 1.2rem;
+}
+
+.LeftPart {
+    text-align: right;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+}
+
+.Signup {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    background-color: #dcc7a7;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 2px #f4ede0;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.Signup>p {
+    color: #fbfbf7;
+}
+
+.Login {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    background-color: #c3cbd2;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 2px #dbe0e4;
+    align-items: center;
+    cursor: pointer;
+}
+
+.Login>p {
+    color: #fbfbf7;
+}
